@@ -65,7 +65,15 @@
 		}
 	}
 	.btn {
-		.custom-btn(@eastern-blue, 100%, @white);
+		.custom-btn(@eastern-blue, 95%, @white);
+	}
+	.button-container {
+		display: flex;
+		justify-content: center;
+	}
+	.btn:hover {
+		.custom-btn(@white, 100%, @eastern-blue);
+		border: 0.5px @eastern-blue solid;
 	}
 }
 // home

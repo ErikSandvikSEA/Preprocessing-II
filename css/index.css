@@ -260,7 +260,7 @@ nav a {
 }
 .home .btn {
   background-color: #17a2b8;
-  width: 100%;
+  width: 95%;
   color: #ffffff;
   text-align: center;
   padding: 4% 0;
@@ -269,4 +269,21 @@ nav a {
   border-radius: 12px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
+}
+.home .button-container {
+  display: flex;
+  justify-content: center;
+}
+.home .btn:hover {
+  background-color: #ffffff;
+  width: 100%;
+  color: #17a2b8;
+  text-align: center;
+  padding: 4% 0;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  border: 0.5px #17a2b8 solid;
 }
