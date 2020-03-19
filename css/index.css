@@ -1,3 +1,17 @@
+@keyframes sillyBorder {
+  0% {
+    border: red dotted 1px;
+  }
+  25% {
+    border: yellow solid 1.5px;
+  }
+  50% {
+    border: blue dashed 3px;
+  }
+  100% {
+    border: green solid 3.5px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -239,6 +253,10 @@ nav a {
     width: 100%;
     align-items: center;
   }
+}
+.home .fun-bus-pic img:hover {
+  animation-name: sillyBorder;
+  animation-duration: 4s;
 }
 .home .welcome {
   max-width: 800px;
