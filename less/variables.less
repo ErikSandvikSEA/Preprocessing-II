@@ -1,14 +1,36 @@
-
-// Color assignments 
+// Color assignments
 @font-color: @shark;
 @button-bg: @eastern-blue;
-@main-bg:  @white;
+@main-bg: @white;
 @navigation-border: @silver;
 @footer-bg: @sandy-beach;
 
 // Colors
-@white: #FFFFFF;
-@silver: #C0C0C0;
+@white: #ffffff;
+@silver: #c0c0c0;
 @shark: #212529;
-@eastern-blue: #17A2B8;
-@sandy-beach: #FFEBCD;
+@eastern-blue: #17a2b8;
+@sandy-beach: #ffebcd;
+
+// fonts
+@main-font: 'Roboto', sans-serif;
+@heading-font: 'Indie Flower', cursive;
+
+// media queries
+@phone: ~'(max-width: 500px)';
+
+// animations
+@keyframes sillyBorder {
+	0% {
+		border: red dotted 1px;
+	}
+	25% {
+		border: yellow solid 1.5px;
+	}
+	50% {
+		border: blue dashed 3px;
+	}
+	100% {
+		border: green solid 3.5px;
+	}
+}

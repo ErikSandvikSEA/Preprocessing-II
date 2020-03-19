@@ -1,1 +1,32 @@
 // Navigation Styles here
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	.section-margin();
+	.padded-top-bottom();
+	@media @phone {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		.section-margin();
+	}
+}
+nav {
+	display: flex;
+	width: 45%;
+	justify-content: space-evenly;
+	align-items: center;
+	@media @phone {
+		width: 85%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	a {
+		font-size: 1.7rem;
+		text-decoration: none;
+		color: @font-color;
+	}
+}

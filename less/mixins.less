@@ -1,1 +1,21 @@
 // Mixins in here
+.padded-top-bottom() {
+	padding: 4% 0;
+}
+.section-margin() {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+.custom-btn(@background, @width, @btn-font-color) {
+	background-color: @background;
+	width: @width;
+	color: @btn-font-color;
+	text-align: center;
+	.padded-top-bottom();
+	padding-left: 8%;
+	padding-right: 8%;
+	border-radius: 12px;
+	font-family: @main-font;
+	font-size: 1.8rem;
+}
